@@ -1,0 +1,33 @@
+#face:hover, #left-ear, #right-ear {
+  animation: hover 1s linear;
+}
+
+#left-eye {
+  animation: translate 2s infinite;
+}
+
+#right-eye {
+  animation: translate 2s infinite;
+}
+
+@keyframes translate {
+
+  from {
+    transform: translateX(-10px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes hover {
+
+  from {
+    transform: translateY(-10px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
