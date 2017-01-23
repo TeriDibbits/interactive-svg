@@ -1,6 +1,10 @@
-#face:hover, #left-ear, #right-ear {
+#face: #left-ear, #right-ear {
+  top: 0%;
+  transition: top .5s ease-out;
+}
+
+#face:hover #left-ear, #right-ear {
   top: -10px;
-  transition: top .5s linear;
 }
 
 #left-eye, #right-eye {
@@ -9,11 +13,15 @@
 
 @keyframes translate {
 
-  from {
+  0% {
+    transform: translateX(0px);
+  }
+
+  50% {
     transform: translateX(-10px);
   }
 
-  to {
-    transform: translateX(0);
+  100% {
+    transform: translateX(0px);
   }
 }
