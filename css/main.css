@@ -3,11 +3,11 @@
 }
 
 #left-eye {
-  animation: translate 2s infinite;
+  animation: translate 3s infinite;
 }
 
 #right-eye {
-  animation: translate 2s infinite;
+  animation: translate 3s infinite;
 }
 
 @keyframes translate {
@@ -18,16 +18,5 @@
 
   to {
     transform: translateX(0);
-  }
-}
-
-@keyframes hover {
-
-  from {
-    transform: translateY(-10px);
-  }
-
-  to {
-    transform: translateY(0);
   }
 }
