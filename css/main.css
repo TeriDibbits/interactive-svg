@@ -1,10 +1,10 @@
-#face: #left-ear, #right-ear {
-  top: 0%;
-  transition: top .5s ease-out;
+#left-ear, #right-ear {
+  transform: translateY(0px);
+  transition: transform .5s ease-out;
 }
 
-#face:hover #left-ear, #right-ear {
-  top: -10px;
+#face:hover #left-ear, #face:hover #right-ear {
+  transform: translateY(-20px);
 }
 
 #left-eye, #right-eye {
