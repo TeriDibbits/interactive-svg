@@ -1,12 +1,9 @@
 #face:hover, #left-ear, #right-ear {
-  animation: hover 1s linear;
+  top: -10px;
+  transition: top .5s linear;
 }
 
-#left-eye {
-  animation: translate 3s infinite;
-}
-
-#right-eye {
+#left-eye, #right-eye {
   animation: translate 3s infinite;
 }
 
